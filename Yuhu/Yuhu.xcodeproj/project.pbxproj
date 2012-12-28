@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51930D3F168D51E40021961E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D3E168D51E40021961E /* UIKit.framework */; };
+		51930D41168D51E40021961E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D40168D51E40021961E /* Foundation.framework */; };
+		51930D43168D51E40021961E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D42168D51E40021961E /* CoreGraphics.framework */; };
+		51930D49168D51E40021961E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51930D47168D51E40021961E /* InfoPlist.strings */; };
+		51930D4B168D51E40021961E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D4A168D51E40021961E /* main.m */; };
+		51930D4F168D51E40021961E /* YuhuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D4E168D51E40021961E /* YuhuAppDelegate.m */; };
+		51930D51168D51E40021961E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 51930D50168D51E40021961E /* Default.png */; };
+		51930D53168D51E40021961E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51930D52168D51E40021961E /* Default@2x.png */; };
+		51930D55168D51E40021961E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51930D54168D51E40021961E /* Default-568h@2x.png */; };
+		51930D58168D51E40021961E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51930D56168D51E40021961E /* MainStoryboard.storyboard */; };
+		51930D5B168D51E40021961E /* YuhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D5A168D51E40021961E /* YuhuViewController.m */; };
+		51930D66168D590A0021961E /* BlogRssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D65168D540A0021961E /* BlogRssParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51930D67168D590E0021961E /* BlogRss.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D63168D540A0021961E /* BlogRss.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51930D6A168D5CDC0021961E /* YuhuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D69168D5CDC0021961E /* YuhuDetailViewController.m */; };
+		51C6AC3A168D7852002E6A7F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C6AC39168D7852002E6A7F /* icon.png */; };
+		51C6AC3C168D7A68002E6A7F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C6AC3B168D7A68002E6A7F /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51930D3A168D51E40021961E /* Yuhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yuhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51930D3E168D51E40021961E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51930D40168D51E40021961E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51930D42168D51E40021961E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51930D46168D51E40021961E /* Yuhu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yuhu-Info.plist"; sourceTree = "<group>"; };
+		51930D48168D51E40021961E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51930D4A168D51E40021961E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51930D4C168D51E40021961E /* Yuhu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yuhu-Prefix.pch"; sourceTree = "<group>"; };
+		51930D4D168D51E40021961E /* YuhuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuhuAppDelegate.h; sourceTree = "<group>"; };
+		51930D4E168D51E40021961E /* YuhuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuhuAppDelegate.m; sourceTree = "<group>"; };
+		51930D50168D51E40021961E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		51930D52168D51E40021961E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		51930D54168D51E40021961E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		51930D57168D51E40021961E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		51930D59168D51E40021961E /* YuhuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuhuViewController.h; sourceTree = "<group>"; };
+		51930D5A168D51E40021961E /* YuhuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuhuViewController.m; sourceTree = "<group>"; };
+		51930D62168D540A0021961E /* BlogRss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogRss.h; sourceTree = "<group>"; };
+		51930D63168D540A0021961E /* BlogRss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogRss.m; sourceTree = "<group>"; };
+		51930D64168D540A0021961E /* BlogRssParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogRssParser.h; sourceTree = "<group>"; };
+		51930D65168D540A0021961E /* BlogRssParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogRssParser.m; sourceTree = "<group>"; };
+		51930D68168D5CDC0021961E /* YuhuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuhuDetailViewController.h; sourceTree = "<group>"; };
+		51930D69168D5CDC0021961E /* YuhuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuhuDetailViewController.m; sourceTree = "<group>"; };
+		51C6AC39168D7852002E6A7F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		51C6AC3B168D7A68002E6A7F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51930D37168D51E40021961E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51930D3F168D51E40021961E /* UIKit.framework in Frameworks */,
+				51930D41168D51E40021961E /* Foundation.framework in Frameworks */,
+				51930D43168D51E40021961E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51930D2F168D51E30021961E = {
+			isa = PBXGroup;
+			children = (
+				51930D44168D51E40021961E /* Yuhu */,
+				51930D3D168D51E40021961E /* Frameworks */,
+				51930D3B168D51E40021961E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51930D3B168D51E40021961E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51930D3A168D51E40021961E /* Yuhu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51930D3D168D51E40021961E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51930D3E168D51E40021961E /* UIKit.framework */,
+				51930D40168D51E40021961E /* Foundation.framework */,
+				51930D42168D51E40021961E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51930D44168D51E40021961E /* Yuhu */ = {
+			isa = PBXGroup;
+			children = (
+				51930D61168D53A90021961E /* Model */,
+				51930D4D168D51E40021961E /* YuhuAppDelegate.h */,
+				51930D4E168D51E40021961E /* YuhuAppDelegate.m */,
+				51930D56168D51E40021961E /* MainStoryboard.storyboard */,
+				51930D59168D51E40021961E /* YuhuViewController.h */,
+				51930D5A168D51E40021961E /* YuhuViewController.m */,
+				51930D45168D51E40021961E /* Supporting Files */,
+				51930D68168D5CDC0021961E /* YuhuDetailViewController.h */,
+				51930D69168D5CDC0021961E /* YuhuDetailViewController.m */,
+			);
+			path = Yuhu;
+			sourceTree = "<group>";
+		};
+		51930D45168D51E40021961E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C6AC3B168D7A68002E6A7F /* icon.png */,
+				51C6AC39168D7852002E6A7F /* icon.png */,
+				51930D46168D51E40021961E /* Yuhu-Info.plist */,
+				51930D47168D51E40021961E /* InfoPlist.strings */,
+				51930D4A168D51E40021961E /* main.m */,
+				51930D4C168D51E40021961E /* Yuhu-Prefix.pch */,
+				51930D50168D51E40021961E /* Default.png */,
+				51930D52168D51E40021961E /* Default@2x.png */,
+				51930D54168D51E40021961E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51930D61168D53A90021961E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51930D62168D540A0021961E /* BlogRss.h */,
+				51930D63168D540A0021961E /* BlogRss.m */,
+				51930D64168D540A0021961E /* BlogRssParser.h */,
+				51930D65168D540A0021961E /* BlogRssParser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51930D39168D51E40021961E /* Yuhu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51930D5E168D51E40021961E /* Build configuration list for PBXNativeTarget "Yuhu" */;
+			buildPhases = (
+				51930D36168D51E40021961E /* Sources */,
+				51930D37168D51E40021961E /* Frameworks */,
+				51930D38168D51E40021961E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yuhu;
+			productName = Yuhu;
+			productReference = 51930D3A168D51E40021961E /* Yuhu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51930D31168D51E40021961E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Yuhu;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = startisiden;
+			};
+			buildConfigurationList = 51930D34168D51E40021961E /* Build configuration list for PBXProject "Yuhu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51930D2F168D51E30021961E;
+			productRefGroup = 51930D3B168D51E40021961E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51930D39168D51E40021961E /* Yuhu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51930D38168D51E40021961E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51930D49168D51E40021961E /* InfoPlist.strings in Resources */,
+				51930D51168D51E40021961E /* Default.png in Resources */,
+				51930D53168D51E40021961E /* Default@2x.png in Resources */,
+				51930D55168D51E40021961E /* Default-568h@2x.png in Resources */,
+				51930D58168D51E40021961E /* MainStoryboard.storyboard in Resources */,
+				51C6AC3A168D7852002E6A7F /* icon.png in Resources */,
+				51C6AC3C168D7A68002E6A7F /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51930D36168D51E40021961E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51930D4B168D51E40021961E /* main.m in Sources */,
+				51930D4F168D51E40021961E /* YuhuAppDelegate.m in Sources */,
+				51930D5B168D51E40021961E /* YuhuViewController.m in Sources */,
+				51930D66168D590A0021961E /* BlogRssParser.m in Sources */,
+				51930D67168D590E0021961E /* BlogRss.m in Sources */,
+				51930D6A168D5CDC0021961E /* YuhuDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51930D47168D51E40021961E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51930D48168D51E40021961E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51930D56168D51E40021961E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51930D57168D51E40021961E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51930D5C168D51E40021961E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51930D5D168D51E40021961E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51930D5F168D51E40021961E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yuhu/Yuhu-Prefix.pch";
+				INFOPLIST_FILE = "Yuhu/Yuhu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51930D60168D51E40021961E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yuhu/Yuhu-Prefix.pch";
+				INFOPLIST_FILE = "Yuhu/Yuhu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51930D34168D51E40021961E /* Build configuration list for PBXProject "Yuhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51930D5C168D51E40021961E /* Debug */,
+				51930D5D168D51E40021961E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51930D5E168D51E40021961E /* Build configuration list for PBXNativeTarget "Yuhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51930D5F168D51E40021961E /* Debug */,
+				51930D60168D51E40021961E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51930D31168D51E40021961E /* Project object */;
+}
