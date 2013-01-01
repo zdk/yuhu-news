@@ -14,17 +14,17 @@
 
 
 #import <UIKit/UIKit.h>
-#import "BlogRssParser.h"
+#import "YuhuRssParser.h"
 
-@class BlogRssParser;
-@class BlogRss;
+@class YuhuRssParser;
+@class YuhuRss;
 
 @interface YuhuViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,BlogRssParserDelegate> {
-	BlogRssParser * _rssParser;
+	YuhuRssParser * _rssParser;
     UITableView * _tableView;
 }
 
-@property (nonatomic,retain) IBOutlet BlogRssParser * rssParser;
+@property (nonatomic,retain) IBOutlet YuhuRssParser * rssParser;
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 

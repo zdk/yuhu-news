@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface BlogRss : NSObject {
+@interface YuhuRss : NSObject {
 	NSString * _title;
 	NSString * _description;
 	NSString * _linkUrl;

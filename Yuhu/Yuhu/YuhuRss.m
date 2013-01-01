@@ -2,10 +2,10 @@
 //  BlogRss.m
 //
 
-#import "BlogRss.h"
+#import "YuhuRss.h"
 
 
-@implementation BlogRss
+@implementation YuhuRss
 
 @synthesize title = _title;
 @synthesize description = _description;

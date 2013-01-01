@@ -18,8 +18,8 @@
 		51930D55168D51E40021961E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51930D54168D51E40021961E /* Default-568h@2x.png */; };
 		51930D58168D51E40021961E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51930D56168D51E40021961E /* MainStoryboard.storyboard */; };
 		51930D5B168D51E40021961E /* YuhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D5A168D51E40021961E /* YuhuViewController.m */; };
-		51930D66168D590A0021961E /* BlogRssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D65168D540A0021961E /* BlogRssParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		51930D67168D590E0021961E /* BlogRss.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D63168D540A0021961E /* BlogRss.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51930D66168D590A0021961E /* YuhuRssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D65168D540A0021961E /* YuhuRssParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51930D67168D590E0021961E /* YuhuRss.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D63168D540A0021961E /* YuhuRss.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		51930D6A168D5CDC0021961E /* YuhuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51930D69168D5CDC0021961E /* YuhuDetailViewController.m */; };
 		51C6AC3A168D7852002E6A7F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C6AC39168D7852002E6A7F /* icon.png */; };
 		51C6AC3C168D7A68002E6A7F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C6AC3B168D7A68002E6A7F /* icon.png */; };
@@ -42,10 +42,10 @@
 		51930D57168D51E40021961E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		51930D59168D51E40021961E /* YuhuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuhuViewController.h; sourceTree = "<group>"; };
 		51930D5A168D51E40021961E /* YuhuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuhuViewController.m; sourceTree = "<group>"; };
-		51930D62168D540A0021961E /* BlogRss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogRss.h; sourceTree = "<group>"; };
-		51930D63168D540A0021961E /* BlogRss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogRss.m; sourceTree = "<group>"; };
-		51930D64168D540A0021961E /* BlogRssParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogRssParser.h; sourceTree = "<group>"; };
-		51930D65168D540A0021961E /* BlogRssParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogRssParser.m; sourceTree = "<group>"; };
+		51930D62168D540A0021961E /* YuhuRss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuhuRss.h; sourceTree = "<group>"; };
+		51930D63168D540A0021961E /* YuhuRss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuhuRss.m; sourceTree = "<group>"; };
+		51930D64168D540A0021961E /* YuhuRssParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuhuRssParser.h; sourceTree = "<group>"; };
+		51930D65168D540A0021961E /* YuhuRssParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuhuRssParser.m; sourceTree = "<group>"; };
 		51930D68168D5CDC0021961E /* YuhuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuhuDetailViewController.h; sourceTree = "<group>"; };
 		51930D69168D5CDC0021961E /* YuhuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuhuDetailViewController.m; sourceTree = "<group>"; };
 		51C6AC39168D7852002E6A7F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -128,10 +128,10 @@
 		51930D61168D53A90021961E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				51930D62168D540A0021961E /* BlogRss.h */,
-				51930D63168D540A0021961E /* BlogRss.m */,
-				51930D64168D540A0021961E /* BlogRssParser.h */,
-				51930D65168D540A0021961E /* BlogRssParser.m */,
+				51930D62168D540A0021961E /* YuhuRss.h */,
+				51930D63168D540A0021961E /* YuhuRss.m */,
+				51930D64168D540A0021961E /* YuhuRssParser.h */,
+				51930D65168D540A0021961E /* YuhuRssParser.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 				51930D4B168D51E40021961E /* main.m in Sources */,
 				51930D4F168D51E40021961E /* YuhuAppDelegate.m in Sources */,
 				51930D5B168D51E40021961E /* YuhuViewController.m in Sources */,
-				51930D66168D590A0021961E /* BlogRssParser.m in Sources */,
-				51930D67168D590E0021961E /* BlogRss.m in Sources */,
+				51930D66168D590A0021961E /* YuhuRssParser.m in Sources */,
+				51930D67168D590E0021961E /* YuhuRss.m in Sources */,
 				51930D6A168D5CDC0021961E /* YuhuDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

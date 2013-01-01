@@ -2,10 +2,10 @@
 //  BlogRssParser.m
 //
 
-#import "BlogRssParser.h"
-#import "BlogRss.h"
+#import "YuhuRssParser.h"
+#import "YuhuRss.h"
 
-@implementation BlogRssParser
+@implementation YuhuRssParser
 
 @synthesize currentItem = _currentItem;
 @synthesize currentItemValue = _currentItemValue;
@@ -68,7 +68,7 @@
 		elementName = qualifiedName;
 	}
 	if ([elementName isEqualToString:@"item"]) {
-		self.currentItem = [[[BlogRss alloc]init]autorelease];
+		self.currentItem = [[[YuhuRss alloc]init]autorelease];
 	}else if ([elementName isEqualToString:@"media:thumbnail"]) {
 		self.currentItem.mediaUrl = [attributeDict valueForKey:@"url"];
 	} else if([elementName isEqualToString:@"title"] || 

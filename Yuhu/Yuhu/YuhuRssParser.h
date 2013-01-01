@@ -4,12 +4,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class BlogRss;
+@class YuhuRss;
 
 @protocol BlogRssParserDelegate;
 
-@interface BlogRssParser : NSObject {
-	BlogRss * _currentItem;
+@interface YuhuRssParser : NSObject {
+	YuhuRss * _currentItem;
 	NSMutableString * _currentItemValue;
 	NSMutableArray * _rssItems;
 	id<BlogRssParserDelegate> _delegate;
@@ -17,7 +17,7 @@
 }
 
 
-@property(nonatomic, retain) BlogRss * currentItem;
+@property(nonatomic, retain) YuhuRss * currentItem;
 @property(nonatomic, retain) NSMutableString * currentItemValue;
 @property(readonly) NSMutableArray * rssItems;
 

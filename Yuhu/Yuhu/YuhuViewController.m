@@ -54,8 +54,8 @@
 
 #import "YuhuViewController.h"
 #import "YuhuDetailViewController.h"
-#import "BlogRssParser.h"
-#import "BlogRss.h"
+#import "YuhuRssParser.h"
+#import "YuhuRss.h"
 
 @implementation YuhuViewController
 
@@ -68,7 +68,7 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	_rssParser = [[BlogRssParser alloc]init];
+	_rssParser = [[YuhuRssParser alloc]init];
 	self.rssParser.delegate = self;
 	[[self rssParser]startProcess];
 }

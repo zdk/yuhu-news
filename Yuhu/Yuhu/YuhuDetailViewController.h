@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BlogRss.h"
+#import "YuhuRss.h"
 
 @interface YuhuDetailViewController : UIViewController
 
