@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5181B6F71693E1E1007B9097 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5181B6F61693E1E1007B9097 /* refresh.png */; };
 		51930D3F168D51E40021961E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D3E168D51E40021961E /* UIKit.framework */; };
 		51930D41168D51E40021961E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D40168D51E40021961E /* Foundation.framework */; };
 		51930D43168D51E40021961E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51930D42168D51E40021961E /* CoreGraphics.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5181B6F61693E1E1007B9097 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		51930D3A168D51E40021961E /* Yuhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yuhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51930D3E168D51E40021961E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		51930D40168D51E40021961E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5181B6E21693DAB6007B9097 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5181B6F61693E1E1007B9097 /* refresh.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		51930D2F168D51E30021961E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 		51930D44168D51E40021961E /* Yuhu */ = {
 			isa = PBXGroup;
 			children = (
+				5181B6E21693DAB6007B9097 /* Assets */,
 				51930D61168D53A90021961E /* Model */,
 				51930D4D168D51E40021961E /* YuhuAppDelegate.h */,
 				51930D4E168D51E40021961E /* YuhuAppDelegate.m */,
@@ -195,6 +206,7 @@
 				51930D58168D51E40021961E /* MainStoryboard.storyboard in Resources */,
 				51C6AC3A168D7852002E6A7F /* icon.png in Resources */,
 				51C6AC3C168D7A68002E6A7F /* icon.png in Resources */,
+				5181B6F71693E1E1007B9097 /* refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

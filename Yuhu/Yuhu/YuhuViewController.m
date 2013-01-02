@@ -63,7 +63,6 @@
 @synthesize tableView = _tableView;
 
 
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
@@ -71,6 +70,15 @@
 	_rssParser = [[YuhuRssParser alloc]init];
 	self.rssParser.delegate = self;
 	[[self rssParser]startProcess];
+    
+    
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refresh)
+             forControlEvents:UIControlEventValueChanged];
+}
+
+- (IBAction)refresh:(id)sender {
+    [self reloadRss];
 }
 
 -(void)reloadRss
